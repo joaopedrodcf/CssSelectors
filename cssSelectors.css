@@ -1,0 +1,39 @@
+/*Element*/
+ul{
+  border: 2px solid black;
+}
+
+/*Class*/
+.fruit{
+  background:blue;
+}
+
+/*Id*/
+#superFruit{
+  background: red;
+}
+
+/*Global*/
+* {
+  background: yellow;
+}
+
+/*Descendant Selector*/
+li a{
+  color: magenta;
+}
+
+/*Adjacent Selector*/
+h4 + ul{
+  border: 5px solid green;
+}
+
+/*Attribute Selector*/
+a[href="www.facebook.com"]{
+  font-size: 30px;
+}
+
+/*nth of a type*/
+li:nth-of-type(1){
+  font-family: monospace;
+}
